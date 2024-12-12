@@ -1,0 +1,104 @@
+
+header p {
+  margin-bottom: -3px;
+  margin-top: -9px;
+  font-weight: 700;
+}
+
+.modal-header {
+  background-image: url("../../logo/Logo-Big.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 8vh;
+}
+p {
+  font-size: 14px;
+}
+.modal-title {
+  font-size: 28px;
+  color: #ececec;
+  font-weight: 500;
+}
+
+th {
+  color: #000000;
+}
+
+td {
+  color: black;
+}
+.dataTables_filter {
+  margin-left: 70%;
+}
+
+tbody {
+  font-family: var(
+    --ut-base-font-family,
+    var(--a-base-font-family, sans-serif)
+  );
+}
+
+.searchoption {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  width: 100%;
+  /* background-color: #7b7b7b; */
+  margin: 10px 0px 8px 0px;
+}
+
+#myinput {
+  width: 150%;
+  /* border: 2px solid rgb(159, 199, 231); */
+}
+
+.select_option {
+  position: relative;
+  width: 100%;
+}
+
+.select_option select {
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+  padding: 0px 15px;
+  cursor: pointer;
+  color: #7b7b7b;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  background: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: all 0.2s ease;
+}
+
+.select_option select::-ms-expand {
+  display: none;
+}
+
+.select_option select:hover,
+.select_option select:focus {
+  color: #000000;
+  background: #fafafa;
+  border-color: #000000;
+  outline: none;
+}
+
+.select_arrow {
+  position: absolute;
+  top: calc(50% - 4px);
+  right: 15px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-width: 8px 5px 0 5px;
+  border-style: solid;
+  border-color: #7b7b7b transparent transparent transparent;
+}
+
+.select_option select:hover + .select_arrow,
+.select_option select:focus + .select_arrow {
+  border-top-color: #000000;
+}
+

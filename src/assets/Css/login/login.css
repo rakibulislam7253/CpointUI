@@ -1,0 +1,75 @@
+body {
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+  }
+  .inhouse {
+    font-size: 20px;
+    /* font-family: "Bookman Old Style"; */
+    font-family: "Book Antiqua";
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 18%;
+    margin-top: -12%;
+    color: #920709;
+  }
+  .button {
+    border: none;
+    position: absolute;
+    margin-left: 34%;
+    margin-top: -75px;
+    width: 4%;
+    color: rgb(55, 56, 56);
+    cursor: pointer;
+  }
+  p {
+    font-size: 14px;
+  }
+  .position-absolute {
+    position: absolute !important;
+  }
+  
+  .cardbody-color input {
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  button {
+    width: 80%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .card-body {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid green;
+    width: 48%;
+    margin-left: 25%;
+    margin-top: 19%;
+    border-radius: 5px;
+  }
+  
+  .card {
+    border: none;
+    margin: 90px;
+    padding: 0px;
+  }
+  
+  .background {
+    background-image: url("../../logo/Logo-Big.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  
+  .ad {
+    color: green;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
